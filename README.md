@@ -13,6 +13,11 @@ Start Docker (or Docker Desktop).  If using Docker Desktop, open up the window a
 docker-compose up -d
 ```
 
+**Install composer modules:**
+```console
+composer install
+```
+
 **Start the development web server in a separate window:**
 ```console
 php artisan serve
