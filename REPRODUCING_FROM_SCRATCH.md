@@ -56,21 +56,10 @@ mysql -h 127.0.0.1 --user=root --password=123TeSt321
 
 With this script, you can always get into MariaDB (as long as it's running) as the root user.
 
-**Edit the .env file and adjust the following settings to match these values:**
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel_jwt_rest_api_test
-DB_USERNAME=root
-DB_PASSWORD=123TeSt321
-```
-
 **Start the Docker containers:**
 ```console
 docker-compose up -d
 ```
-
 
 **To use phpMyAdmin, point a browser to (http://localhost:10000) and enter the following, then click "Log in":**
 ```
@@ -84,7 +73,17 @@ Password: 123TeSt321
 create database laravel_jwt_rest_api_test;
 ```
 
-You should now see the laravel_jwt_rest_api_test database in the left panel (you may need to refesh the page).
+**Edit the .env file and adjust the following settings to match these values:**
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel_jwt_rest_api_test
+DB_USERNAME=root
+DB_PASSWORD=123TeSt321
+```
+
+You should now see the laravel_jwt_rest_api_test database in the left panel of phpMyAdmin (you may need to refesh the page).
 
 **Run the database migration in the project folder:**
 ```console
