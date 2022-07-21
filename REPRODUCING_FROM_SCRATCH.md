@@ -74,9 +74,9 @@ docker-compose up -d
 
 **To use phpMyAdmin, point a browser to (http://localhost:10000) and enter the following, then click "Log in":**
 ```
-  Server: mariadbtest
-  Username: root
-  Password: 123TeSt321
+Server: mariadbtest
+Username: root
+Password: 123TeSt321
 ```
 
 **Click on the SQL tab, enter the following command, and click "Go" (or, you can just run ./mysql.sh and enter/run this command inside the mysql console):**
