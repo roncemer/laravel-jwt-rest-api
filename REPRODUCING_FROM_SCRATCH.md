@@ -1,6 +1,6 @@
 # Reproducing this project from scratch
 
-## Create a Laravel app; start MariaDB AND phpMyAdmin under Docker; set up JWT authentication; create user registration, login, profile, refresh and logout APIs
+## Create a Laravel app; start MariaDB and phpMyAdmin under Docker; set up JWT authentication; create user registration, login, profile, refresh and logout APIs
 
 This section is adapted from this article: (https://www.positronx.io/laravel-jwt-authentication-tutorial-user-login-signup-api/)
 
